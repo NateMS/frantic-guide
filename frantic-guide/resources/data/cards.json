@@ -1,0 +1,79 @@
+[{
+    "title": "All Draw One",
+    "body_de": "Alle deine Mitspieler müssen eine Handkarte vom Nachziehstapel ziehen.",
+    "image": "all_draw_one",
+    "type": "powercard",
+    "set": "supercharge"
+}, {
+    "title": "Anti Counter",
+    "body_de": "Deine mit Anti Counter gespielte Handkarte kann nicht mit Counter Attack abgewehrt werden.",
+    "image": "anti_counter",
+    "type": "powercard",
+    "set": "supercharge"
+}, {
+    "title": "Black Wish",
+    "body_de": "Wünsche dir Schwarz.",
+    "image": "black_wish",
+    "type": "powercard",
+    "set": "supercharge"
+}, {
+    "title": "Colour Blockade",
+    "body_de": "Wähle eine Farbe, die bis zum Ende deines nächsten Zuges nicht mehr gespielt werden darf. Achtung: du darfst die blockierte Farbe in deinem nächsten Zug auch nicht spielen",
+    "image": "colour_blockade",
+    "type": "powercard",
+    "set": "supercharge"
+}, {
+    "title": "Looping",
+    "body_de": "Nach deinem Zug geht es in die andere Spielrichtung weiter. Nach deinem nächsten Zug, ändert die Spielrichtung abermals.",
+    "image": "looping",
+    "type": "powercard",
+    "set": "supercharge"
+}, {
+    "title": "Number Wish",
+    "body_de": "Wünsche dir eine Zahl.",
+    "image": "number_wish",
+    "type": "powercard",
+    "set": "supercharge"
+}, {
+    "title": "Open Hands",
+    "body_de": "Deine Mitspieler müssen bis zu Beginn deines nächsten Zuges mit offenen Handkarten spielen",
+    "image": "open_hands",
+    "type": "powercard",
+    "set": "supercharge"
+}, {
+    "title": "Random Chance",
+    "body_de": "Spiele eine zweite Karte auf deine soeben gespielte Karte. Diese muss jedoch nicht auf deine erstgespielte Karte passen.",
+    "image": "random_chance",
+    "type": "powercard",
+    "set": "supercharge"
+}, {
+    "title": "Recycling",
+    "body_de": "Deine soeben gespielte Karte muss wieder auf die Hand genommen werden, aber du entscheidest wer sie nehmen muss. Du kannst auch dich selbst bestimmen.",
+    "image": "recycling",
+    "type": "powercard",
+    "set": "supercharge"
+}, {
+    "title": "Special Charge",
+    "body_de": "Wähle einen Mitspieler aus. Dieser muss nun für jede Spezialkarte auf seiner Hand eine zusätzliche Karte vom Nachziehstapel ziehen",
+    "image": "special_charge",
+    "type": "powercard",
+    "set": "supercharge"
+}, {
+    "title": "Special Seal",
+    "body_de": "Es dürfen bis zu Beginn deines nächsten Zuges keine Spezialkarten mehr gespielt werden. Wichtig: Du darst diese Karte nicht zusammen mit einer Spezialkarte aktivieren.",
+    "image": "looping",
+    "type": "powercard",
+    "set": "supercharge"
+}, {
+    "title": "Troublecharger",
+    "body_de": "Löse ein Ereignis aus. Aktivierst du diese Karte zu einer schwarzen Karte oder zu Troublemaker, löst du insgesamt zwei Ereignisse aus.",
+    "image": "looping",
+    "type": "powercard",
+    "set": "supercharge"
+}, {
+    "title": "Black Hole",
+    "body_de": "Wer das Ereignis ausgelöst hat, erhält alle in den Händen der Mitspieler*innen vorhandenen Schwarzen Karten.",
+    "image": "black_hole",
+    "type": "eventcard",
+    "set": "troublemaker"
+}]

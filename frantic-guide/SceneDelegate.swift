@@ -23,7 +23,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
 
         // Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath
-        let contentView = ContentView().environment(\.managedObjectContext, context)
+        let cards = getCardsData()
+        let contentView = BaseView(cards: cards).environment(\.managedObjectContext, context)
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
@@ -33,6 +34,27 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window.makeKeyAndVisible()
         }
     }
+
+    func getCardsData() -> [Card] {
+        let url = Bundle.main.url(forResource: "cards", withExtension: "json")!
+        let data = try! Data(contentsOf: url)
+        let JSON = try! JSONSerialization.jsonObject(with: data, options: [])
+        var cards: [Card] = []
+        print(".........." , JSON , ".......")
+        if let jsonArray = JSON as? [[String: Any]] {
+            for item in jsonArray {
+                cards.append(Card(
+                    title: item["title"] as? String ?? "",
+                    body: item["body_de"] as? String ?? "",
+                    image: item["image"] as? String ?? "",
+                    type: CardType.PowerCard,
+                    set: CardSet.Supercharge))
+            }
+        }
+        
+        return cards
+    }
+
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
